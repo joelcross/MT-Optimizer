@@ -1,16 +1,3 @@
-/*
- * 
- * 
- * 
- * It reads the rider data, which consists of which riders used which modes of transportation
- * each hour, as well as vehicle data, which consists of all information 
- * (unit number, ID, capacity, etc) relevant to each transportation type.
- * 
- * Then, based off of this information, it calculates and writes to a text file the data for 
- * the vehicles which should be in use for each hour of the day in order to minimize the number of
- * vehicles used.
- */
-
 package mtOptimizer;
 import java.io.BufferedReader;
 import java.io.File;
